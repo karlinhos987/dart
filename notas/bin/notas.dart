@@ -64,8 +64,8 @@ void menu(List<String> notas) {
 
 void cabecalho() {
   print("  _  _     _           ");
-  print(" | \| |___| |_ __ _ ___");
-  print(" | .\` / _ \  _/ _\` (_-<");
-  print(" |_|\_\___/\__\__,_/__/");
+  print(" | | |___| |_ __ _ ___");
+  print(" | .` / _   _/ _` (_-<");
+  print(" |_|____/____,_/__/");
   print("                       ");
 }
