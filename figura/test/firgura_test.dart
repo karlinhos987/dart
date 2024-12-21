@@ -1,4 +1,4 @@
-import 'package:firgura/figura.dart';
+import 'package:figura/figura.dart';
 import 'package:test/test.dart';
 
 void main() {
