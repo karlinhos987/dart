@@ -1,0 +1,311 @@
+// {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "agendamento",
+//             "cwd": "agendamento",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "agendar_consulta",
+//             "cwd": "agendar_consulta",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "animal",
+//             "cwd": "animal",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "animal2",
+//             "cwd": "animal2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "animal3",
+//             "cwd": "animal3",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "animal4",
+//             "cwd": "animal4",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "anybank",
+//             "cwd": "anybank",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "buscar_ingrediente",
+//             "cwd": "buscar_ingrediente",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "buscar_livro",
+//             "cwd": "buscar_livro",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "calculadora",
+//             "cwd": "calculadora",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "calculadora2",
+//             "cwd": "calculadora2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "calculadora3",
+//             "cwd": "calculadora3",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "calcularsalario",
+//             "cwd": "calcularsalario",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "carteiramotorista",
+//             "cwd": "carteiramotorista",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "dart_assincronismo",
+//             "cwd": "dart_assincronismo",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "dart_exceptions",
+//             "cwd": "dart_exceptions",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "deposito",
+//             "cwd": "deposito",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "diarias",
+//             "cwd": "diarias",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "dobro",
+//             "cwd": "dobro",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "esporte",
+//             "cwd": "esporte",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "estoque",
+//             "cwd": "estoque",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "estoque2",
+//             "cwd": "estoque2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "exemplo_request",
+//             "cwd": "exemplo_request",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "exercicio_request",
+//             "cwd": "exercicio_request",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "ficha",
+//             "cwd": "ficha",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "figura",
+//             "cwd": "figura",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "figura2",
+//             "cwd": "figura2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "ingredientes",
+//             "cwd": "ingredientes",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "ingredientes2",
+//             "cwd": "ingredientes2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "listaprodutos",
+//             "cwd": "listaprodutos",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "maioridade",
+//             "cwd": "maioridade",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "mediaidade",
+//             "cwd": "mediaidade",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "mesano",
+//             "cwd": "mesano",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "mesano2",
+//             "cwd": "mesano2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "metodopagamento",
+//             "cwd": "metodopagamento",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "meu_app",
+//             "cwd": "meu_app",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "notas",
+//             "cwd": "notas",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "notasescolares",
+//             "cwd": "notasescolares",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "organizar_time",
+//             "cwd": "organizar_time",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "quartos",
+//             "cwd": "quartos",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "quartos2",
+//             "cwd": "quartos2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "registrofuncionario",
+//             "cwd": "registrofuncionario",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "relatorio",
+//             "cwd": "relatorio",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "reservashotel",
+//             "cwd": "reservashotel",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "reservashotel2",
+//             "cwd": "reservashotel2",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "servivo",
+//             "cwd": "servivo",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "tipoarquivos",
+//             "cwd": "tipoarquivos",
+//             "request": "launch",
+//             "type": "dart"
+//         },
+//         {
+//             "name": "verificarsaldo",
+//             "cwd": "verificarsaldo",
+//             "request": "launch",
+//             "type": "dart"
+//         }
+//     ]
+// }
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dart_exceptions",
+            "request": "launch",
+            "type": "dart",
+            "program": "dart_assincronismo/bin/main.dart",
+            "args": [],
+            "toolArgs": [],
+            "console": "terminal"
+        }
+    ]
+}
