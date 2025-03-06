@@ -70,7 +70,9 @@ class AccountScreen {
       print("Tente novamente mais tarde.");
     } finally {
       print("${DateTime.now()} | Ocorreu uma tentativa de consulta.");
+      // Aqui vai rodar antes de fechar.
     }
+    // Aqui não vai rodar antes de fechar.
   }
 
   _addExampleAccount() async {
@@ -80,10 +82,11 @@ class AccountScreen {
         name: "Haley",
         lastName: "Chirívia",
         balance: 8001,
+        accountType: "Brigadeiro",
       );
 
       await _accountService.addAccount(example);
-    } on Exception catch (e) {
+    } on Exception {
       print("Ocorreu um problema ao tentar adicionar.");
     }
   }

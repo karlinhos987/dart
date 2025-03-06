@@ -5,12 +5,14 @@ class Account {
   String name;
   String lastName;
   double balance;
+  String accountType;
 
   Account({
     required this.id,
     required this.name,
     required this.lastName,
     required this.balance,
+    required this.accountType,
   });
 
   factory Account.fromMap(Map<String, dynamic> map) {
@@ -19,16 +21,8 @@ class Account {
       name: map['name'] as String,
       lastName: map['lastName'] as String,
       balance: map['balance'] as double,
+      accountType: map['accountType'] as String,
     );
-  }
-
-  Map<String, dynamic> toMap() {
-    return <String, dynamic>{
-      'id': id,
-      'name': name,
-      'lastName': lastName,
-      'balance': balance,
-    };
   }
 
   Account copyWith({
@@ -36,16 +30,28 @@ class Account {
     String? name,
     String? lastName,
     double? balance,
+    String? accountType,
   }) {
     return Account(
       id: id ?? this.id,
       name: name ?? this.name,
       lastName: lastName ?? this.lastName,
       balance: balance ?? this.balance,
+      accountType: accountType ?? this.accountType,
     );
   }
 
   String toJson() => json.encode(toMap());
+
+  Map<String, dynamic> toMap() {
+    return <String, dynamic>{
+      'id': id,
+      'name': name,
+      'lastName': lastName,
+      'balance': balance,
+      'accountType': accountType,
+    };
+  }
 
   factory Account.fromJson(String source) =>
       Account.fromMap(json.decode(source) as Map<String, dynamic>);
